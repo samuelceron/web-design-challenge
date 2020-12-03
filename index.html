@@ -8,7 +8,7 @@
 </head>
 <body>
 <body>
-        <!-- NAVIGATION -->
+    <!-- Navigation menu -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="/">
@@ -24,15 +24,90 @@
               <a class="nav-link" href="#">Plots</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Comparison</a>
+              <a class="nav-link" href="comparison.html">Comparison</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Data</a>
+              <a class="nav-link" href="data.html">Data</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="background-overlay text-white py-5">
+          <div class="container">
+            <div class="row d-flex h-100">
+              <div class="col-lg-6 col-md-12 col-sm-12 text-center justify-content-center align-self-center">
+                <h1 style="color: black;">
+                  Weather Data Analytics
+                </h1>
+                <p style="color: black;">The purpose of this project was to analize how weather changes as you closer to the equator. 
+                    To accomplish this analysis, we first pulled data from the <a href="https://openweathermap.org/api" target="blank">OpenWeatherMap API </a>to assemble a dataset on over 500 cities.</p>
+                <p style="color: black;">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude.
+                Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations created 
+                as part of the analysis, as well as explanations and decriptions of any trends and correlations witnessed.</p>
+                </div>
+              
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="row">
+                    <div class="col-md-12 text-center ">
+                        <h1 style="color:black">Visualizations</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="card-body">
+                            <div class="card text-center border-primary">
+                                <a href=""><img src="images/lat_cloudiness_plot.png" class="img-fluid"/></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="card-body">
+                            <div class="card text-center border-primary">
+                                <a href=""><img src="images/lat_humidity_plot.png" class="img-fluid"/></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="card-body">
+                            <div class="card text-center border-primary">
+                                <a href=""><img src="images/lat_maxTemp_plot.png" class="img-fluid"/></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="card-body">
+                            <div class="card text-center border-primary">
+                                <a href=""><img src="images/lat_windSpeed_plot.png" class="img-fluid"/></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    <!-- FEATURES -->
+
+    <section class="py-5">
+        <div class="container">
+            
+        </div>
+      </section>
+      <footer>
+        <div style="background-color:#343A40" class="container p-3">
+          <div class="row text-center text-white">
+            <div class="col ml-auto">
+              <p>Copyright &copy; 2018</p>
+            </div>
+          </div>
+        </div>       
+      </footer>
     
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
