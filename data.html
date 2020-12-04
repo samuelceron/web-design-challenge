@@ -22,32 +22,44 @@
     </head>
     
     <body>
-        <!-- Navigation menu -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a href="index.html" class="navbar-brand" href="/">
-                    <img src="images/logo.png" style="width: 12%">
-                    <p>Weather Analytics</p>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Plots</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="comparison.html">Comparison</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="data.html">Data</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+            <!-- Navigation menu -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container">
+                  <a href="index.html" class="navbar-brand" href="/">
+                      <img src="images/logo.png" style="width: 12%">
+                      <p>Weather Analytics</p>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ml-auto">
+                          <li class="nav-item">
+                              <div class="dropdown">
+                                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Plots
+                                  </button>
+                                  <div style="background-color: white;" class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                      <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                                      <a class="dropdown-item" href="humidity.html">Humidity</a>
+                                      <a class="dropdown-item" href="maxtemp.html">Max Temp</a>
+                                      <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                                  </div>
+                                </div>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="comparison.html">Comparison</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="data.html">Data</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+              </div>
+         
 
         <div class="container">
             <div class="row">
